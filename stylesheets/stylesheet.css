@@ -1,0 +1,16 @@
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+  text-align: center;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+    }
+}
